@@ -12,7 +12,7 @@ Library allows to manage Windows network adapter settings.
 
 *1. Get information about available network interfaces (NI)*
 
-   ```
+   ```cs
    new NetworkConnectionManager().GetAdaptersInfo();  
    ```
     
@@ -37,7 +37,7 @@ Library allows to manage Windows network adapter settings.
 
 *3. Change DNS Servers*
 
-```
+```cs
         var dnsArray = new string[] { "8.8.8.8", "8.8.8.4" };
         new NetworkConnectionManager().SetDns(dnsArray, UUID); 
 ```
