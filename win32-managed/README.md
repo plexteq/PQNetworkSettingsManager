@@ -1,13 +1,13 @@
-#Network Settings Manager client library for .NET
+# Network Settings Manager client library for .NET
 
 
 
-##Description
+## Description
 Library allows to manage Windows network adapter settings.
 
 
 
-###Developer Documentation
+### Developer Documentation
 1. Get information about available network interfaces (NI)
 
     ```
