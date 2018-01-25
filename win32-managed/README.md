@@ -77,3 +77,7 @@ Library allows to manage Windows network adapter settings.
 ```
     new DefaultGatewayManager().RemoveDefaultGateway(gateway, mask, mertic);
 ```
+
+
+## NuGet Packages
+We have released a NuGet package. The library published by Plexteq is called Plexteq.Win32Managed.NetworkSettingsAdapter
