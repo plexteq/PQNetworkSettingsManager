@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Plexteq.Win32Managed.NetworkSettingsAdapter</id>
+    <version>1.0.0.0</version>
+    <title>Plexteq.Win32Managed.NetworkSettingsAdapter</title>
+    <authors>Plexteq</authors>
+    <owners>Plexteq</owners>
+    <licenseUrl>https://github.com/plexteq/PQNetworkSettingsManager/blob/master/win32-managed/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/plexteq/PQNetworkSettingsManager/tree/master/win32-managed</projectUrl>
+    <iconUrl>https://github.com/plexteq/PQNetworkSettingsManager/tree/master/win32-managed</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Library that allows to manage Windows network adapter settings.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Network Adapter</tags>
+  </metadata>
+</package>

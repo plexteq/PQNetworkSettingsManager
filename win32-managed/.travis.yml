@@ -1,0 +1,6 @@
+language: csharp
+solution: NetworkSettingsAPI.sln
+script:
+	- msbuild.exe NetworkSettingsAPI.sln /t:Build /p:Configuration=Release
+install:
+	- dotnet add package Plexteq.Win32Managed.NetworkSettingsAdapter --version 1.0.0
