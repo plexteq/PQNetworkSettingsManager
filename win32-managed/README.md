@@ -40,9 +40,19 @@ new NetworkConnectionManager().GetAdaptersInfo();
 *2. Retrieve information about specific interface by UUID*
 
 ```cs
-new NetworkConnectionManager().GetAdapterInfo("{0EB0E025-3D65-4BFE-8F69-01A4B88F1A73}"); 
+new NetworkConnectionManager().GetAdapterInfo("{C103ED5E-E2C4-48F9-B3BD-DFFD4A9B7589}"); 
 ```
+Example:
 
+```
+    {
+        "UUID":"{C103ED5E-E2C4-48F9-B3BD-DFFD4A9B7589}"
+        ,"IpAddress":"192.168.88.224",
+        "IsDhcpEnabled":true,"NetMask":"255.255.255.0",
+        "DefaultIpGateway":"192.168.88.1",
+        "DNS":["8.8.8.8","8.8.4.4"]
+        }
+```
 
 *3. Change DNS Servers*
 
